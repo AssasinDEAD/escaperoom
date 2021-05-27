@@ -1,0 +1,55 @@
+.game {
+   display: flex;
+   justify-content: space-around;
+   padding-top: 50px;
+}
+
+.door{
+   position: absolute;
+   width: 100px;
+   height: 30px;
+   background-color: black;
+   top: 0px;
+   left: 200px;
+}
+
+.room {
+   width: 600px;
+   height: 600px;
+   background-color: rgb(221, 92, 92);
+   border: 5px solid black;
+   position: relative;
+}
+
+.i {
+   width: 100px;
+   height: 100px;
+   background-color: red;
+   position: absolute;
+   top: 420px;
+   left: 200px;
+}
+
+.freedom{
+   display: none;
+   font-size: 50px;
+}
+
+.freedom.active{
+   display: block;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+}
+
+.input {
+   margin-bottom: 50px;
+}
+
+.btn {
+   width: 100px;
+   background-color: yellow;
+   color: green;
+}
